@@ -19,7 +19,7 @@ div{
 	text-align: center;
 	text-align: justify;
 	margin-left: 40px;
-	margin-right: 100px;
+	margin-right: 40px;
 }
 
 p{
@@ -28,13 +28,6 @@ p{
 	padding-bottom: 15px;
 }
 
-ul{
-	
-}
-
-li{
-
-}
 
 /*HEADER*/
 #header-nav{
@@ -67,6 +60,7 @@ li{
 
 .navbar{
 	padding: 0px;
+	border: 2px solid black;
 }
 
 .navbar-toggler{
@@ -109,7 +103,7 @@ li{
 
 	div{
 		margin-left: 70px;
-		margin-right: 100px;
+		margin-right: 70px;
 	}
   
   
