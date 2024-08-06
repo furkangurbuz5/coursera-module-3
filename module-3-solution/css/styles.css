@@ -1,0 +1,118 @@
+body{
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1{
+	margin-bottom: 30px;
+
+}
+h2{
+	margin-top: 15px;
+	text-align: center;
+}
+
+div{
+	background-color: grey;
+	text-align: center;
+	text-align: justify;
+	margin-left: 40px;
+	margin-right: 100px;
+}
+
+p{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+ul{
+	
+}
+
+li{
+
+}
+
+/*HEADER*/
+#header-nav{
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+
+}
+
+#nav-list {
+  margin-top: 10px;
+
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.nav-item{
+	text-align: center;
+	border: 2px solid black;
+	margin-bottom: 2px;
+}
+
+.navbar{
+	padding: 0px;
+}
+
+.navbar-toggler{
+	margin-right: 30px;
+}
+
+
+
+/*MEDIA QUERIES*/
+/********** Large devices only **********/
+@media screen and (min-width: 992px) {
+  
+  .nav-item{
+  	display:none;
+  }
+
+
+  
+}
+
+
+/********** Medium devices only **********/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  
+  .nav-item{
+  	display:none;
+  }
+
+  .navbar-toggler{
+  	display:none;
+  }
+
+  
+}
+
+  
+
+/********* Small devices only ***********/
+@media screen and (max-width: 767px) {
+
+	div{
+		margin-left: 70px;
+		margin-right: 100px;
+	}
+  
+  
+
+
+}
